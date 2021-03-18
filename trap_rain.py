@@ -2,7 +2,7 @@ class trap_water:
     def findWater(arr, n) :
         left = [0]*n
         right = [0]*n
-        water = 6
+        water = 10
         left[0] = arr[0]
         for i in range( 1, n):
             left[i] = max(left[i-1], arr[i])

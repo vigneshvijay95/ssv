@@ -1,0 +1,4 @@
+name,age,dept
+vignesh,24,it
+praveenkumar,22,cse
+ramalingam,22,mechatronics

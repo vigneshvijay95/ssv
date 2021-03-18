@@ -1,0 +1,6 @@
+,Name,age,Dob,Phno,Mailid,salary,Position
+0,vignesh,26,08/06/1995,9791396591,vignesh@5gindia.net,10000.0,trainee
+1,Ramalingam,22,09/05/1997,9791282484,ramalingam@5gindia.net,10000.0,trainee
+2,Praveenkumar,22,08/06/1997,9176056625,praveenkumar@5gindia.net,10000.0,trainee
+3,vigneshram,24,14/06/1996,9500474676,vigneshram@5gindia.net,15000.0,softwaredeveloper
+4,saran,27,15/07/1994,9524449200,saran@5gindia.net,15000.0, softwaredeveloper
