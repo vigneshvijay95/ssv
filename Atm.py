@@ -2,13 +2,13 @@ import random
 class Account:
     print("WELCOME TO SBI ATM")
     print("please wait your transaction:")
-    
+    #accountObj 
     
     def __init__(self, id, balance = 0, annualInterestRate = 1.4,):
             self.id = id
             self.balance = balance
             self.annualInterestRate = annualInterestRate
-       
+        #self.account = account
  
     def getId(self):
         return self.id
@@ -32,7 +32,7 @@ class Account:
         return self.balance * self.getMonthlyInterestRate()
 
 def main():
-  
+   
     accounts = []
     accountObj = None
     for i in range(1000, 9999):
@@ -70,7 +70,7 @@ def getPin():
   pin = int(input("\nEnter account Pin: "))  
   while pin < 1000 or pin > 9999:
     pin = int(input("\nInvalid Pin.. Re-enter : "))
-    return pin
+  return pin
 
 
 def viewbalance(accountObj):
@@ -89,17 +89,17 @@ def withdraw(accountObj):
             else:
                 print("\nYou're balance is less than withdrawl amount: " + str(accountObj.getBalance()) + " \n")
                 print("\nPlease make a deposit.")
-                return withdraw
+        return withdraw
       
  
 def deposit(accountObj):
-    
+   
         amt = float(input("\nEnter amount to deposit: "))
         ver_deposit = input("Is this the correct amount, Yes, or No ? " + str(amt) + " ")
         if ver_deposit == "Yes" or ver_deposit == "yes":
             accountObj.deposit(amt)
             print("\nUpdated Balance: " + str(accountObj.getBalance()))
-            return deposit
+        return deposit
 
 def exit1(accountObj):
    
@@ -108,7 +108,7 @@ def exit1(accountObj):
         print("Current Interest Rate: ", accountObj.annualInterestRate)
         print("Monthly Interest Rate: ", accountObj.annualInterestRate / 12)
         print("Thanks for choosing us as your bank")
-   
+  
 if __name__ == "__main__":
     main()
  
