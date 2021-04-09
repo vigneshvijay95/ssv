@@ -107,7 +107,7 @@ def exit1(accountObj):
         print("Transaction number: ", random.randint(10000, 1000000))
         print("Current Interest Rate: ", accountObj.annualInterestRate)
         print("Monthly Interest Rate: ", accountObj.annualInterestRate / 12)
-        print("Thanks for choosing us as your bank")
+        print("Thanks for Banking with us")
   
 if __name__ == "__main__":
     main()

@@ -15,8 +15,8 @@ class bank:
         if account.balance>=amount:
             account.balance-=amount
             print("\n you having the balance:",amount)
-            else:
-                print("\n insufficient balance:",amount)
+        else:
+            print("\n insufficient balance:",amount)
     def balance(account):
         print("\n account balance=",account.balance)
 if __name__ == "__main__":
