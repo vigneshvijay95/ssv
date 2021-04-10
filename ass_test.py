@@ -21,6 +21,9 @@ class TestAssessment1(unittest.TestCase):
         self.assertEquals(seating_area.booking_class.type,'Economy')
         self.assertEquals(seating_area.seat_count,15)
         self.assertEquals(len(seating_area.seats_remaining),15)
+        #economy = BookingClass("Economy") 
+        #firstClass_seats = SeatingArea(economy, start_row=1, row_count=5, seats_per_row=3)
+
 
 if __name__ == '__main__':
     unittest.main()
