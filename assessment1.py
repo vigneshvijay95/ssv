@@ -2,6 +2,8 @@ import random
 
 letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 print("WELCOME TO AIR LINES BOOKING:")
+print ("PLEASE KEEP SOCIAL DISTANCE AND WEAR MASK")
+print("Booking for Bangalore to Chennai")
 
 
 class BookingClass:
